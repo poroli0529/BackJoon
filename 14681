@@ -1,0 +1,16 @@
+# x,y = map(int, input().split())
+x = int(input())
+y = int(input())
+
+
+if(x>0):
+    quadrant = 4 if y < 0 else 1
+else :
+    quadrant = 2 if y > 0 else 3
+
+print(quadrant)
+
+[삼항연산자]
+참일 때 값  if 조건 else 거짓일 때값 
+
+코테에서는 입력 값도 유심히 살펴 봐야함.
